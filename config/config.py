@@ -1,10 +1,3 @@
-#
-# Copyright (C) 2024 by THE-VIP-BOY-OP@Github, < https://github.com/THE-VIP-BOY-OP >.
-#
-# This file is part of < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC > project,
-# and is released under the MIT License.
-# Please see < https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/master/LICENSE >
-#
 # All rights reserved.
 import re
 from os import getenv
@@ -70,12 +63,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002481028444"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "6388093422").split())
 )  # Input type must be interger
 
 
@@ -114,15 +107,15 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Nobita_All_Bot"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/Lucky_jet_game_signal"
+)  # Example:- https://t.me/Lucky_jet_game_signal
 SUPPORT_GROUP = getenv(
-    "BOYS_STATUS_GROUP", "https://t.me/NOBITA_SUPPORT"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "BOYS_STATUS_GROUP", "https://t.me/+Zs0TywN-IBRhZjFl"
+)  # Example:- https://t.me/lucky_jet_aviator_prediction
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Nobita_Support"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/lucky_jet_aviator_prediction"
+)  # Example:- https://t.me/lucky_jet_aviator_prediction
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -217,67 +210,67 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WjQ.jpg",
+    "https://envs.sh/jln.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jln.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jln.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jln.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://envs.sh/0-l.jpg",
+    "https://envs.sh/jlT.jpg",
 )
 
 
